@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section */
+
+
+.header-nav{
+   
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.header-nav__search-bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-nav__search-bars i ,
+.header-nav__search-bars img{
+    margin-left: 50px;
+}
